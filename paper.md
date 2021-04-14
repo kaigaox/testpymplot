@@ -34,7 +34,7 @@ plots in a consistent manner.
 
 # Statement of Need
 Data visualization is gaining increasing importance in modern scientific 
-research `[@Schroeder_etal_2000; @Ahrens_etal_2005; @Fogal_etal_2010; @Ramachandran_Varoquaux_2011]`. 
+research [@Schroeder_etal_2000; @Ahrens_etal_2005; @Fogal_etal_2010; @Ramachandran_Varoquaux_2011]. 
 The reason behind such transition is that modern scientific research, 
 particularly those associated with data analysis, image analysis, and 
 experimental result analysis, essentially relies on descent rendering of 
@@ -49,16 +49,16 @@ much more clearly than complex equations and lengthy text descriptions.
 Starting from simple dot, line and curve representations in early days, 
 scientific data visualization nowadays enjoys a vast pool of plotting 
 tools than ever. The most notable ones include matplotlib 
-`[@Hunter_2007]`, Mathematica `[@Mathematica]`, MATLAB 
-`[@MATLAB]`, gnuplot `[@gnuplot]`, VTK 
-`[@Schroeder_etal_2000]`, Mayavi 
-`[@Ramachandran_Varoquaux_2011]`, Paraview `[@Ahrens_etal_2005]`, 
-VisIt `[@VisIt]`, OpenGL `[@Woo_etal_1999]`, Surfer 
-`[@Surfer]`, to name a few without a specific order. For geophysical 
+[@Hunter_2007], Mathematica [@Mathematica], MATLAB 
+[@MATLAB], gnuplot [@gnuplot], VTK 
+[@Schroeder_etal_2000], Mayavi 
+[@Ramachandran_Varoquaux_2011], Paraview [@Ahrens_etal_2005], 
+VisIt [@VisIt], OpenGL [@Woo_etal_1999], Surfer 
+[@Surfer], to name a few without a specific order. For geophysical 
 particularly earthquake and seismic studies, generic mapping tools (GMT) 
-`[@Wessel_etal_2019]`, SeismicUnix (SU) `[@seismicunix]`, and 
-Madagascar `[@Madagascar]` are probably the most popular packages.  
-The package MinesJTK `[@MinesJTK]` based on Java programming language 
+[@Wessel_etal_2019], SeismicUnix (SU) [@seismicunix], and 
+Madagascar [@Madagascar] are probably the most popular packages.  
+The package MinesJTK [@MinesJTK] based on Java programming language 
 with Python interfaces also gains attention in the seismic research 
 community recently. 
 
@@ -78,7 +78,7 @@ and VTK are undoubtedly very comprehensive and powerful, but are
 generally considered to be not user-friendly for usual users, and both of 
 them require a very steep learning curve. GMT partially shares this 
 drawback of a steep learning curve until probably the most recent version 
-`[@Wessel_etal_2019]`.  Another reason that motivates us to develop 
+[@Wessel_etal_2019].  Another reason that motivates us to develop 
 a plotting package for routine plotting tasks is that many of these 
 aforementioned plotting tools are commercial software, and require high  
 initial and annual subscription fees to use. 
@@ -113,7 +113,7 @@ data. In short, our plotting package is a collection of
 *applications* with specific purposes, instead of 
 a *library* with generic functions and interfaces.
 
-In summary, our plotting package contains the following functionalities:
+To address these needs, we develop eight plotting functionalities:
 - `showgraph`: To show 1D scalar data as curves or scatter points with or without colors representing their attributes.
 - `showmatrix`: To show 2D regularly sampled scalar data as a colored image. 
 - `showcontour`: To show 2D regularly sampled scalar data as contours.
