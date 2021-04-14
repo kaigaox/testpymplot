@@ -1,5 +1,5 @@
 ---
-title: 'Pymplot: An open-source, lightweight plotting package for efficient visualization of multi-dimensional geophysical data'
+title: '`pymplot`: An open-source, lightweight plotting package for efficient visualization of multi-dimensional geophysical data'
 tags:
   - Python
   - geophysics
@@ -15,8 +15,9 @@ authors:
 affiliations:
  - name: Geophysics Group, Los Alamos National Laboratory, Los Alamos, NM 87645, USA
    index: 1
+bibliography: refs.bib
 date: 15 April 2021
-bibliography: paper.bib
+---
 
 # Summary
 We develop a lightweight, easy-to-use plotting package based on Python 
@@ -81,14 +82,13 @@ them require a very steep learning curve. GMT partially shares this
 drawback of a steep learning curve until probably the most recent version 
 [@Wessel_etal_2019].  Another reason that motivates us to develop 
 a plotting package for routine plotting tasks is that many of these 
-aforementioned plotting tools are commercial software, and require high  
-initial and annual subscription fees to use. 
+aforementioned plotting tools are commercial software, and require high initial and annual subscription fees to use. 
 
 Though geophysical data may be in any modern data storage forms, such as 
 regularly sampled, irregularly sampled, unstructured, multi-component 
 (vector or tensor), the most frequently used data form is perhaps the 
 regularly sampled scalar data in 2D and 3D shapes, e.g., seismic 
-velocity, density, and subsurface images. Very frequently, researchers in 
+velocity, density, and subsurface images. More than frequently, researchers in 
 the geophysics community only need to render these 2D and 3D data into simple forms such as 2D images, contours, 3D image volumes, or multiple 
 slices. In such a case, some of these aforementioned tools may be 
 overkill for these plotting tasks. 
