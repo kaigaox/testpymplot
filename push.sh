@@ -4,6 +4,7 @@
 #git branch -M main
 #git remote add origin https://github.com/kaigaox/testpymplot.git
 git add *
+git rm paper.md refs.bib paper.bib
 git status
 git commit -m "test"
-git push # origin main
+git push -u origin main
