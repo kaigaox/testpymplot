@@ -16,7 +16,7 @@ affiliations:
  - name: Geophysics Group, Los Alamos National Laboratory, Los Alamos, NM 87645, USA
    index: 1
 date: 15 April 2021
-bibliography: refs.bib
+bibliography: paper.bib
 
 # Summary
 We develop a lightweight, easy-to-use plotting package based on Python 
