@@ -156,7 +156,7 @@ name=$(grep -m 1 "name: " $paper | rev | cut -d " " -f 1 - | rev)
 # Compile the paper
 
 pandoc \
-	--filter pandoc-citeproc \
+	--citeproc \
 	--bibliography=$bib \
 	--template=latex.template \
 	-V logo_path=$logo \
@@ -174,7 +174,7 @@ pandoc \
 	-V volume=$volume \
 	-V page=$page \
 	-V graphics=true \
-	--latex-engine=xelatex \
+	--pdf-engine=pdflatex \
 	--from markdown+autolink_bare_uris \
 	--csl=apa.csl \
 	-s $paper \

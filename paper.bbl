@@ -1,0 +1,89 @@
+\begin{thebibliography}{}
+\itemsep0pt
+
+\bibitem[Ahrens et~al., 2005]{Ahrens_etal_2005}
+Ahrens, J., B. Geveci, and C. Law,  2005, Paraview: An end-user tool for large
+  data visualization: Elsevier M{\"u}nchen, volume~{\bf 717} {\it of} The
+  Visualization Handbook.
+
+\bibitem[Aminzadeh et~al., 1997]{Aminzadeh_etal_1997}
+Aminzadeh, F., J. Brac, and T. Kunz,  1997, {SEG/EAGE 3-D Salt and Overthrust
+  Models}, {\it in} {SEG/EAGE 3-D Modeling Series, No. 1: Distribution CD of
+  Salt and Overthrust models}.
+
+\bibitem[Billette and Brandsberg-Dahl, 2005]{bp2004_2005}
+Billette, F., and S. Brandsberg-Dahl,  2005, The 2004 {BP} velocity benchmark,
+  {\it in} 67th Annual International Meeting, EAGE, Expanded Abstracts: EAGE,
+  B035.
+
+\bibitem[Childs et~al., 2012]{VisIt}
+Childs, H., E. Brugger, B. Whitlock, J. Meredith, S. Ahern, D. Pugmire, K.
+  Biagas, M. Miller, C. Harrison, G.~H. Weber, H. Krishnan, T. Fogal, A.
+  Sanderson, C. Garth, E.~W. Bethel, D. Camp, O. R\"{u}bel, M. Durant, J.~M.
+  Favre, and P. Navr\'{a}til,  2012, {VisIt: An End-User Tool For Visualizing
+  and Analyzing Very Large Data}, {\it in} {High Performance
+  Visualization--Enabling Extreme-Scale Scientific Insight}:  357--372.
+
+\bibitem[Fogal et~al., 2010]{Fogal_etal_2010}
+Fogal, T., H. Childs, S. Shankar, J.~H. Kr{\"u}ger, R.~D. Bergeron, and P.~J.
+  Hatcher,  2010, Large data visualization on distributed memory multi-{GPU}
+  clusters: High Performance Graphics, {\bf 3}, doi:
+  \url{10.2312/EGGH/HPG10/057-066}.
+
+\bibitem[{Golden Software, LLC}, 2020]{Surfer}
+{Golden Software, LLC},  2020, {Surfer\textregistered}: Golden Software, LLC.
+
+\bibitem[Hale, 2015]{MinesJTK}
+Hale, D.,  2015, {Mines Java Toolkit (JTK): Open-source Java packages for
+  science and engineering}: \url{inside.mines.edu/~dhale/jtk}.
+
+\bibitem[Hunter, 2007]{Hunter_2007}
+Hunter, J.~D.,  2007, {{Matplotlib: A 2D graphics environment}}: Computing in
+  Science \& Engineering, {\bf 9}, no.~3, 90--95, doi:
+  \url{10.1109/MCSE.2007.55}.
+
+\bibitem[{Madagascar Development Team}, 2012]{Madagascar}
+{Madagascar Development Team},  2012, Madagascar software, version~1.4:
+  \url{www.ahay.org}.
+
+\bibitem[Martin et~al., 2006]{Martin_etal_2006}
+Martin, G.~S., R. Wiley, and K.~J. Marfurt,  2006, {Marmousi2: An elastic
+  upgrade for Marmousi}: The Leading Edge, {\bf 25}, no.~2, 156--166, doi:
+  \url{10.1190/1.2172306}.
+
+\bibitem[{MathWorks, Inc.}, 2020]{MATLAB}
+{MathWorks, Inc.},  2020, {MATLAB, Version R2020a}: The MathWorks, Inc.
+
+\bibitem[{Ramachandran} and {Varoquaux}, 2011]{Ramachandran_Varoquaux_2011}
+{Ramachandran}, P., and G. {Varoquaux},  2011, {Mayavi: 3D} visualization of
+  scientific data: Computing in Science Engineering, {\bf 13}, no.~2, 40--51,
+  doi: \url{10.1109/MCSE.2011.35}.
+
+\bibitem[{Schroeder} et~al., 2000]{Schroeder_etal_2000}
+{Schroeder}, W.~J., L.~S. {Avila}, and W. {Hoffman},  2000, Visualizing with
+  {VTK}: A tutorial: IEEE Computer Graphics and Applications, {\bf 20}, no.~5,
+  20--27, doi: \url{10.1109/38.865875}.
+
+\bibitem[Stockwell~Jr. and Cohen, 2008]{seismicunix}
+Stockwell~Jr., J.~W., and J.~K. Cohen,  2008, {The New SU User’s Manual}.
+
+\bibitem[Wessel et~al., 2019]{Wessel_etal_2019}
+Wessel, P., J.~F. Luis, L. Uieda, R. Scharroo, F. Wobbe, W.~H.~F. Smith, and D.
+  Tian,  2019, {{The Generic Mapping Tools Version 6}}: Geochemistry,
+  Geophysics, Geosystems, {\bf 20}, no.~11, 5556--5564, doi:
+  \url{10.1029/2019GC008515}.
+
+\bibitem[Williams et~al., 2020]{gnuplot}
+Williams, T., C. Kelley, and many{ }others,  2020, {{Gnuplot 5.2: An
+  interactive plotting program}}: \url{www.gnuplot.info}.
+
+\bibitem[{Wolfram Research, Inc.}, 2020]{Mathematica}
+{Wolfram Research, Inc.},  2020, {Mathematica, {V}ersion 12.1}: Wolfram
+  Research, Inc.
+
+\bibitem[Woo et~al., 1999]{Woo_etal_1999}
+Woo, M., J. Neider, T. Davis, and D. Shreiner,  1999, {{OpenGL programming
+  guide: The official guide to learning OpenGL, version 1.2}}: Addison-Wesley
+  Longman Publishing Co., Inc.
+
+\end{thebibliography}

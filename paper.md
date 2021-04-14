@@ -16,14 +16,13 @@ affiliations:
  - name: Geophysics Group, Los Alamos National Laboratory, Los Alamos, NM 87645, USA
    index: 1
 bibliography: refs.bib
-date: 15 April 2021
+date: 15 April, 2021
 ---
 
 # Summary
 We develop a lightweight, easy-to-use plotting package based on Python 
 and matplotlib for efficient visualization of multi-dimensional geophysical data. 
-The package contains eight 
-plotting functions that can efficiently and conveniently render 1D, 2D and 3D
+The package contains eight plotting functions that can efficiently and conveniently render 1D, 2D and 3D
 regular-grid scalar data into publication-quality figures of various 
 formats. These plotting functions include plotting 1D scalar data as 
 a curve or a set of colored scatter points, showing 2D regular-grid 
@@ -65,10 +64,7 @@ The package MinesJTK [@MinesJTK] based on Java programming language
 with Python interfaces also gains attention in the seismic research 
 community recently. 
 
-The aforementioned plotting tools are based on drastically different 
-fundamental-layer libraries, programming languages, orientations, and 
-goals, and they are not necessarily compatible with one another. For 
-example, Madagascar uses its own special data I/O format, which is not 
+The aforementioned plotting tools are based on drastically different fundamental-layer libraries, programming languages, orientations, and goals, and they are not necessarily compatible with one another. For example, Madagascar uses its own special data I/O format, which is not 
 widely adopted in any other aforementioned software or libraries. More 
 importantly, some of these tools are generic plotting tools that are 
 applicable to a wide range of visualization tasks, but are not 
@@ -98,7 +94,7 @@ we develop a plotting package based on Python and matplotlib for
 visualizing 1D scalar data and 2D/3D regularly sampled scalar data. We have no intention to develop our plotting package, `pymplot` as we name it for now, to surpass any existing plotting software. Our intention is to provide a convenient application layer to the Python-based
 plotting library, matplotlib. We choose Python and matplotlib because 
 both of them are free, open-source, de facto most widely used, and 
-portable on different operating system platforms. In a sense our package 
+portable on different operating system platforms. Our package 
 is not an independent, generic, or fundamental layer or library. We 
 design and implement the `pymplot` package mainly to render 
 regularly-sampled scalar data to a limited number of visualization forms 
