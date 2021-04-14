@@ -6,4 +6,4 @@ git add ./*
 #git remote add origin https://github.com/kaigaox/testpymplot.git
 git status
 git commit -m "test"
-git push -u origin main
+git push origin main
