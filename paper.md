@@ -1,4 +1,3 @@
----
 title: 'Pymplot: An open-source, lightweight plotting package for efficient visualization of multi-dimensional geophysical data'
 tags:
 - Python
@@ -27,11 +26,11 @@ formats. These plotting functions include plotting 1D scalar data as
 a curve or a set of colored scatter points, showing 2D regular-grid 
 scalar data as an image, wiggles, or contours, and displaying 3D 
 regular-grid scalar data as a volume or three orthogonal slices in the 
-image or contour form.  We develop this package to facilitate quick 
+image or contour form.  We develop this package to facilitate command-line-based, quick 
 rendering of 1D, 2D and 3D scalar data into visually decent forms with 
 simple commands and options. Our package is also capable of rendering 
 various fonts, subscripts, superscripts, and mathematical symbols on 
-plots in a consistent manner. 
+different types of plots in a consistent manner. 
 
 # Statement of Need
 Data visualization is gaining increasing importance in modern scientific 
@@ -75,8 +74,7 @@ MATLAB and Mathematica are fancy scientific computational tools, but
 neither of them is designed primarily for data visualization. Some of 
 these tools require heavy or at least an intermediate level of 
 programming effort to render even a simple dataset.  For example, OpenGL 
-and VTK are undoubtedly very comprehensive and powerful, but are  
-generally considered to be not user-friendly for usual users, and both of 
+and VTK are undoubtedly very comprehensive and powerful, but are generally considered to be not user-friendly for usual users, and both of 
 them require a very steep learning curve. GMT partially shares this 
 drawback of a steep learning curve until probably the most recent version 
 [@Wessel_etal_2019].  Another reason that motivates us to develop 
@@ -89,30 +87,25 @@ regularly sampled, irregularly sampled, unstructured, multi-component
 (vector or tensor), the most frequently used data form is perhaps the 
 regularly sampled scalar data in 2D and 3D shapes, e.g., seismic 
 velocity, density, and subsurface images. Very frequently, researchers in 
-the geophysics community only need to render these 2D and 3D data into  
-simple forms such as 2D images, contours, 3D image volumes, or multiple 
+the geophysics community only need to render these 2D and 3D data into simple forms such as 2D images, contours, 3D image volumes, or multiple 
 slices. In such a case, some of these aforementioned tools may be 
 overkill for these plotting tasks. 
 
 With consideration of convenience, simplicity, and lightweight in mind, 
 we develop a plotting package based on Python and matplotlib for 
-visualizing 1D scalar data and 2D/3D regularly sampled scalar data. We have no intention to develop our plotting package, `pymplot` as we name it for now, to surpass any existing plotting software. Our 
-intention is to provide a convenient application layer to the Python-based
+visualizing 1D scalar data and 2D/3D regularly sampled scalar data. We have no intention to develop our plotting package, `pymplot` as we name it for now, to surpass any existing plotting software. Our intention is to provide a convenient application layer to the Python-based
 plotting library, matplotlib. We choose Python and matplotlib because 
 both of them are free, open-source, de facto most widely used, and 
 portable on different operating system platforms. In a sense our package 
-is not an independent, generic, or fundamental layer or library.  We 
+is not an independent, generic, or fundamental layer or library. We 
 design and implement the `pymplot` package mainly to render 
 regularly-sampled scalar data to a limited number of visualization forms 
 (images, contours, wiggles, volumes, etc.). It is therefore not 
 comprehensive enough to rendering complex data forms other than regularly 
 sampled scalar data, including unstructured (e.g., unstructured 2D or 3D 
 mesh) or multi-component (e.g., vector or tensor). Properly rendering 
-these types of complex data usually require significant advanced 
-programming efforts, particularly for 3D unstructured or multi-component 
-data. In short, our plotting package is a collection of 
-*applications* with specific purposes, instead of 
-a *library* with generic functions and interfaces.
+these types of complex data usually require significant advanced programming efforts, particularly for 3D unstructured or multi-component 
+data. In short, our plotting package is a collection of *applications* with specific purposes, instead of a *library* with generic functions and interfaces.
 
 To address these needs, we develop eight plotting functionalities:
 - `showgraph`: To show 1D scalar data as curves or scatter points with or without colors representing their attributes.
