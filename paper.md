@@ -1,18 +1,20 @@
+---
 title: 'Pymplot: An open-source, lightweight plotting package for efficient visualization of multi-dimensional geophysical data'
 tags:
-- Python
-- matplotlib
-- geophysical data
-- volume
-- slice
+  - Python
+  - geophysics
+  - visualization
+  - multi-dimensional data
+  - volume
+  - slice
 authors:
-- name: Kai Gao^[Corresponding Author; Email: kaigao@lanl.gov]
-  affliation: 1
-- name: Lianjie Huang
-  affliation: 1
+  - name: Kai Gao^[Corresponding author; Email: kaigao@lanl.gov]
+    affiliation: 1
+  - name: Lianjie Huang
+    affiliation: 1
 affiliations:
-- name: Geophyscis Group, Earth and Environmental Sciences Division, Los Alamos National Laboratory, Los Alamos, NM 87545, USA
-  index: 1
+ - name: Geophysics Group, Los Alamos National Laboratory, Los Alamos, NM 87645, USA
+   index: 1
 date: 15 April 2021
 bibliography: refs.bib
 
